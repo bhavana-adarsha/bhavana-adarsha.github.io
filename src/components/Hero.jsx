@@ -1,11 +1,18 @@
 import useScrollAnimation from '../hooks/useScrollAnimation'
 
 function Hero() {
-  const ref = useScrollAnimation();
+  const ref = useScrollAnimation()
 
   return (
-    <section id="hero"ref={ref} className="fade-in">
+    <section id="hero" ref={ref}>
       <div className="hero-container">
+        <img
+          src="/bhavana.jpg"
+          alt="Bhavana Adarsha"
+          className="hero-photo"
+          width="250"
+          height="300"
+        />
         <h1>Bhavana Adarsha</h1>
         <h2>Product Leader. Ex-Founder. Healthcare AI Builder.</h2>
         <p>Welcome to my portfolio — a sneak peek into my product thinking & builder brain.</p>
