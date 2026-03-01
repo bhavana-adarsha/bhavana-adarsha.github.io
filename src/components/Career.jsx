@@ -15,11 +15,14 @@ function Career() {
               <h3>Duality Systems</h3>
               <span className="timeline-role">Product Lead, AI Scheduling Platform</span>
               <p>
-                Led product for an AI-powered healthcare workforce scheduling platform
-                that hit <span className="highlight">$1M ARR</span>. Built code that supported
-                constrained optimization algorithms. Designed multi-component architecture
-                and drove roadmap from concept to revenue. Worked on integrations to connect
-                scheduling with payroll, time-off, and clinical systems.
+                First product hire at a workforce tech startup. Led product for an 
+                AI-powered workforce scheduling platform that hit{' '}
+                <span className="highlight">$1M ARR</span>. Built and validated the AI 
+                scheduling MVP that cut schedule build time from{' '}
+                <span className="highlight">2 weeks to 15 minutes</span>. Designed 
+                multi-component architecture and drove roadmap from concept to revenue. 
+                Led integrations connecting scheduling with payroll, time-off, and 
+                external workforce systems across healthcare and military organizations.
               </p>
             </div>
           </div>
@@ -28,13 +31,14 @@ function Career() {
             <div className="timeline-dot"></div>
             <div className="timeline-content">
               <h3>sCoolMeal</h3>
-              <span className="timeline-role">Co-Founder & Product</span>
+              <span className="timeline-role">Co-Founder & Head of Product</span>
               <p>
-                Built a restaurant POS platform purpose-built for school cafeterias.
-                Took it from <span className="highlight">10 → 2,500 meals/day</span>,
-                survived the chaos of real-world school lunch lines, and exited via
-                acquisition. Integrated payment processors, school parent portal SSO,
-                and Drift. Lived the dream while I was at it.
+                Built a restaurant POS platform for school cafeterias from zero. Took 
+                it from <span className="highlight">10 → 2,500 meals/day</span>, survived 
+                the chaos of real-world school lunch lines, and exited via acquisition. 
+                Integrated payment processors, school parent portal SSO, and chatbot 
+                automation to create a seamless experience for parents, staff, and 
+                administrators.
               </p>
             </div>
           </div>
@@ -42,17 +46,16 @@ function Career() {
           <div className="timeline-item">
             <div className="timeline-dot"></div>
             <div className="timeline-content">
-              <h3>API Integrations @ Various</h3>
+              <h3>API & AI Integrations @ Various</h3>
               <span className="timeline-role">Product Leader</span>
               <p>
-                Designed and delivered end-to-end API integrations across healthcare,
-                workforce, and POS systems. Bridged complex systems to create seamless
-                user experiences and unlock business value. Integrations span{' '}
-                <span className="highlight">Epic EHR, FHIR APIs, and OpenFDA</span> on
-                the healthcare side, <span className="highlight">ADP, Paysauce, and
-                time-off systems</span> for workforce and payroll, and{' '}
-                <span className="highlight">school parent portal SSO, payment processors,
-                and student data systems</span> at schools.
+                Designed and delivered end-to-end API integrations across workforce, 
+                payroll, and operations systems. Bridged complex systems to create 
+                seamless user experiences and unlock business value. Integrations span{' '}
+                <span className="highlight">ADP, Paysauce, and time-off systems</span> for 
+                workforce and payroll, payment processors and student data systems at 
+                schools, and <span className="highlight">AI APIs for agentic workflow 
+                automation</span>.
               </p>
             </div>
           </div>
