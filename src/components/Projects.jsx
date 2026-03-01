@@ -18,7 +18,7 @@ function Projects() {
       title: "Agentic AI — Payroll & Employee Onboarding Agent",
       description: "An intelligent agent that connects to payroll systems, captures employee information, and auto-fills onboarding forms so HR teams can focus on people, not paperwork.",
       stack: ["LangChain", "Agentic AI", "REST APIs", "Python"],
-      highlights: null,
+      highlights: "Conversational AI agent that collects employee data across multiple steps using LangChain agentic workflows",
       link: "https://github.com/bhavana-adarsha/payroll-onboarding-agent",
       status: "live"
     },
