@@ -1,10 +1,8 @@
 import useScrollAnimation from '../hooks/useScrollAnimation'
 
 function Skills() {
-  const ref = useScrollAnimation();
-
   const skills = {
-    "AI / ML": ["GPT-4", "RAG Architecture", "LangChain", "Prompt Engineering", "Agentic AI", "LLM Integration"],
+    "AI & ML": ["Agentic AI", "LLM Integration", "Prompt Engineering", "RAG Architecture", "LangChain", "Model Validation"],
     "Healthcare Tech": ["FHIR APIs", "HL7", "HIPAA Compliance", "EHR Integration", "OpenFDA"],
     "Languages & Frameworks": ["Python", "JavaScript", "ReactJS", "Node.js", "HTML/CSS"],
     "Data & Backend": ["SQL", "REST APIs", "PostgreSQL", "Vector Databases"],
