@@ -19,7 +19,7 @@ function Projects() {
       description: "An intelligent agent that connects to payroll systems, captures employee information, and auto-fills onboarding forms so HR teams can focus on people, not paperwork.",
       stack: ["LangChain", "Agentic AI", "REST APIs", "Python"],
       highlights: null,
-      link: "#",
+      link: "https://github.com/bhavana-adarsha/payroll-onboarding-agent",
       status: "coming"
     },
     {
