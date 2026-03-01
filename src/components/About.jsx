@@ -9,11 +9,11 @@ function About() {
       <div className="about-text">
         <p>
           Product Leader with <span className="highlight">10+ years of PM experience</span> and 
-          10 years of engineering roots — I bring technical depth to every product decision.
+          10 years of engineering roots, I bring technical depth to every product decision.
         </p>
         <p>
           I sit at the intersection of <span className="highlight">AI product strategy, 
-          workforce tech, and operations platforms</span> — the three places where the most 
+          workforce tech, and operations platforms...</span> the three places where the most 
           interesting problems live.
         </p>
         <p>

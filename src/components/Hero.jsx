@@ -15,7 +15,7 @@ function Hero() {
         />
         <h1>Bhavana Adarsha</h1>
         <h2>Product Leader. Ex-Founder. AI Builder. I build B2B SaaS products from zero to one and ship things that matter.</h2>
-        <p>Welcome to my portfolio — a sneak peek into my product thinking & builder brain.</p>
+        <p>Welcome to my portfolio, a sneak peek into my product thinking and builder brain.</p>
         <div className="hero-buttons">
           <a href="#projects">View Projects</a>
           <a href="#contact">Let's Connect</a>
