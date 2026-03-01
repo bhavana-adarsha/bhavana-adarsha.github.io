@@ -6,12 +6,12 @@ function Hero() {
   return (
     <section id="hero" ref={ref}>
       <div className="hero-container">
-        <img
+         <img
           src="/bhavana.jpg"
           alt="Bhavana Adarsha"
-          className="hero-photo"
-          width="250"
-          height="300"
+          className="about-photo"
+          width="200"
+          height="200"
         />
         <h1>Bhavana Adarsha</h1>
         <h2>Product Leader. Ex-Founder. Healthcare AI Builder.</h2>

@@ -208,6 +208,20 @@ body {
   border: 1px solid #38bdf833;
 }
 
+.about-image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.about-photo {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  border: 3px solid #38bdf8;
+  box-shadow: 0 0 20px #38bdf833;
+}
+
 /* CAREER */
 #career {
   padding: 6rem 2rem;
