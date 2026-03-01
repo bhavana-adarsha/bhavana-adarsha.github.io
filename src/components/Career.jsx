@@ -19,7 +19,7 @@ function Career() {
                 that hit <span className="highlight">$1M ARR</span>. Built code that supported 
                 constrained optimization algorithms. Designed multi-component architecture 
                 and drove roadmap from concept to revenue. Worked on integrations to connect 
-                scheduling with payroll, time-off, and clinical systems.
+                scheduling with payroll, time-off, and clinical systems. 
               </p>
             </div>
           </div>
@@ -42,11 +42,10 @@ function Career() {
           <div className="timeline-item">
             <div className="timeline-dot"></div>
             <div className="timeline-content">
-              <h3>WOW (Workforce Optimization)</h3>
+              <h3>Wide Open West</h3>
               <span className="timeline-role">Product Leader</span>
               <p>
-                Deep expertise in workforce management systems: scheduling, time & attendance, 
-                labor optimization. Built a unified customer account portal with end-to-end 
+                Built a unified customer account portal with end-to-end 
                 integrations across <span className="highlight">billing, payments, and data</span>. 
                 Turned a fragmented experience into one clean front door.
               </p>

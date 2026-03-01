@@ -7,7 +7,7 @@ const ref = useScrollAnimation();
     <section id="contact" ref={ref} className="fade-in">
       <div className="contact-container">
         <h2>Let's Connect!</h2>
-        <p>Whether it's healthcare AI, workforce tech, building products that matter — or just a good conversation, I'd love to hear from you.</p>
+        <p>Whether it's healthcare AI, workforce tech, building products that matter or just a good conversation about books or life, I'd love to hear from you.</p>
         <div className="contact-links">
           <a href="https://www.linkedin.com/in/bhav515/" target="_blank" rel="noreferrer">
             🔗 LinkedIn
