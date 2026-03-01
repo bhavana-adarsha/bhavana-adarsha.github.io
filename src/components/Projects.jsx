@@ -1,31 +1,41 @@
 import useScrollAnimation from '../hooks/useScrollAnimation'
 
 function Projects() {
-  const ref = useScrollAnimation();
+  const ref = useScrollAnimation()
+
   const projects = [
     {
       emoji: "🌸",
-      title: "IRIS — AI-Powered Women's Health Platform",
-      description: "An intelligent health platform that analyzes lab results, delivers personalized health nudges, and puts women in the driver's seat of their own health data.",
-      stack: ["GPT-4", "RAG", "FHIR", "Python", "ReactJS"],
-      highlights: "Lab result interpretation, HIPAA-compliant architecture, personalized AI recommendations",
+      title: "IRIS — AI Product Development & Workflow Design",
+      description: "An AI-powered platform built to validate LLM workflow design, prompt engineering strategies, and output validation protocols at the product layer.",
+      stack: ["LLM APIs", "RAG", "Python", "ReactJS"],
+      highlights: "AI workflow requirements, output validation protocols, safety guardrails",
       link: "https://github.com/bhavana-adarsha/iris-lab-analyzer",
       status: "live"
     },
     {
       emoji: "🤖",
-      title: "Agentic AI — Payroll Employee Onboarding Agent",
-      description: "An intelligent agent that connects to payroll systems, captures employee information, and auto-fills onboarding forms — so HR teams can stop doing what a robot should be doing.",
+      title: "Agentic AI — Payroll & Employee Onboarding Agent",
+      description: "An intelligent agent that connects to payroll systems, captures employee information, and auto-fills onboarding forms so HR teams can focus on people, not paperwork.",
       stack: ["LangChain", "Agentic AI", "REST APIs", "Python"],
       highlights: null,
       link: "#",
       status: "coming"
     },
     {
-      emoji: "📋",
-      title: "Agentic AI — Patient Summary Generator",
-      description: "An AI agent that pulls clinical data and generates concise, structured patient summaries for care teams — reducing cognitive load and improving handoff quality.",
-      stack: ["GPT-4", "FHIR APIs", "LangChain", "Python"],
+      emoji: "🔌",
+      title: "AI & API Integration Framework",
+      description: "A documented product framework for designing, validating, and governing AI-powered API integrations across workforce and operations platforms.",
+      stack: ["REST APIs", "Python", "LLM APIs"],
+      highlights: null,
+      link: "#",
+      status: "coming"
+    },
+    {
+      emoji: "🛡️",
+      title: "AI Governance Framework",
+      description: "A product-layer framework for LLM output validation, safety guardrails, and reliability protocols for enterprise AI applications.",
+      stack: ["LLM APIs", "Python"],
       highlights: null,
       link: "#",
       status: "coming"
@@ -35,7 +45,7 @@ function Projects() {
   return (
     <section id="projects" ref={ref} className="fade-in">
       <div className="projects-container">
-        <h2>🌟 Featured Projects</h2>
+        <h2>🌟 A Few Featured Projects</h2>
         <div className="projects-grid">
           {projects.map((project) => (
             <div className="project-card" key={project.title}>
