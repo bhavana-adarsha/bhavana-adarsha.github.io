@@ -19,7 +19,7 @@ const ref = useScrollAnimation();
             📧 Email
           </a>
           <a href="https://www.goodreads.com/user/show/10263958-bhavana-adarsha">
-            GoodReads
+            📚 Goodreads
           </a>
         </div>
         <p className="contact-footer">
