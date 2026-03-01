@@ -20,7 +20,7 @@ function Projects() {
       stack: ["LangChain", "Agentic AI", "REST APIs", "Python"],
       highlights: null,
       link: "https://github.com/bhavana-adarsha/payroll-onboarding-agent",
-      status: "coming"
+      status: "live"
     },
     {
       emoji: "🔌",
