@@ -35,16 +35,16 @@ function Projects() {
       emoji: "🛡️",
       title: "AI Governance Framework",
       description: "A product-layer framework for LLM output validation, safety guardrails, and reliability protocols for enterprise AI applications.",
-      stack: [],
-      highlights: "Release readiness framework for a clinical AI chart summarization copilot — Alpha to GA, with safety metrics, pilot design, and governance sign-off checklist",
-      link: "https://github.com/bhavana-adarsha/AI-Agent-GTM-Playbook",
+      stack: [""],
+      highlights: "Release readiness & adoption framework for a clinical AI chart summarization copilot — Alpha to GA, with safety metrics, pilot design, and governance sign-off checklist",
+      link: "https://github.com/bhavana-adarsha/Chart-Review-Release-Framework",
       status: "live"
     },
     {
       emoji: "🛡️",
       title: "AI Agent GTM Playbook",
       description: "An AI-powered agent that analyzes workforce scheduling and payroll data, detects anomalies using deterministic logic, and generates plain-language explanations with recommended actions using GPT-4.",
-      stack: [],
+      stack: [""],
       highlights: "This playbook defines how to take the Workforce Data Anomaly Explainer Agent from a working prototype to an adopted tool used consistently by workforce managers across an organization. Building the agent is the easy part. Getting people to use it and keep using it is the hard part. This playbook addresses that problem directly. A technically sound agent that managers do not use is not a successful deployment. Adoption is treated as a first-class outcome alongside accuracy and reliability.",
       link: "https://github.com/bhavana-adarsha/AI-Agent-GTM-Playbook",
       status: "live"
