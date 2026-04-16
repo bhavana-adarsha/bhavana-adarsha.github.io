@@ -46,7 +46,7 @@ function Projects() {
       description: "An AI-powered agent that analyzes workforce scheduling and payroll data, detects anomalies using deterministic logic, and generates plain-language explanations with recommended actions using GPT-4.",
       stack: [],
       highlights: "This playbook defines how to take the Workforce Data Anomaly Explainer Agent from a working prototype to an adopted tool used consistently by workforce managers across an organization. Building the agent is the easy part. Getting people to use it and keep using it is the hard part. This playbook addresses that problem directly. A technically sound agent that managers do not use is not a successful deployment. Adoption is treated as a first-class outcome alongside accuracy and reliability.",
-      link: "#",
+      link: "https://github.com/bhavana-adarsha/AI-Agent-GTM-Playbook",
       status: "live"
     }
   ]
