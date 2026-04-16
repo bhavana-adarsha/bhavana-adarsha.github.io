@@ -24,21 +24,30 @@ function Projects() {
     },
     {
       emoji: "🔌",
-      title: "AI & API Integration Framework",
-      description: "A documented product framework for designing, validating, and governing AI-powered API integrations across workforce and operations platforms.",
-      stack: ["REST APIs", "Python", "LLM APIs"],
-      highlights: null,
-      link: "#",
-      status: "coming"
+      title: "Workforce Data Anomaly Explainer AI Agent",
+      description: "An AI-powered agent that analyzes workforce scheduling and payroll data, detects anomalies using deterministic logic, and generates plain-language explanations with recommended actions using GPT-4.",
+      stack: ["React","Vite","Flask","LangChain" ,"GPT-4", "Synthetic JSON dataset", "Python", "JavaScript"],
+      highlights: "Workforce managers dealing with large scheduling datasets spend significant time manually identifying errors — duplicate shifts, availability conflicts, payroll mismatches, and missing submissions. These errors cause overpayments, understaffing, and compliance risks. This agent automates that detection and explains each anomaly in plain language so a non-technical manager can act on it immediately without needing a data analyst.",
+      link: "https://github.com/bhavana-adarsha/workforce-anomaly-agent",
+      status: "live"
     },
     {
       emoji: "🛡️",
       title: "AI Governance Framework",
       description: "A product-layer framework for LLM output validation, safety guardrails, and reliability protocols for enterprise AI applications.",
-      stack: ["LLM APIs", "Python"],
-      highlights: null,
+      stack: [],
+      highlights: "Release readiness framework for a clinical AI chart summarization copilot — Alpha to GA, with safety metrics, pilot design, and governance sign-off checklist",
+      link: "https://github.com/bhavana-adarsha/AI-Agent-GTM-Playbook",
+      status: "live"
+    },
+    {
+      emoji: "🛡️",
+      title: "AI Agent GTM Playbook",
+      description: "An AI-powered agent that analyzes workforce scheduling and payroll data, detects anomalies using deterministic logic, and generates plain-language explanations with recommended actions using GPT-4.",
+      stack: [],
+      highlights: "This playbook defines how to take the Workforce Data Anomaly Explainer Agent from a working prototype to an adopted tool used consistently by workforce managers across an organization. Building the agent is the easy part. Getting people to use it and keep using it is the hard part. This playbook addresses that problem directly. A technically sound agent that managers do not use is not a successful deployment. Adoption is treated as a first-class outcome alongside accuracy and reliability.",
       link: "#",
-      status: "coming"
+      status: "live"
     }
   ]
 
