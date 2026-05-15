@@ -58,6 +58,15 @@ function Projects() {
       link: "https://github.com/bhavana-adarsha/Patient_Journey",
       status: "live"
     },
+    {
+      emoji: "🛡️",
+      title: "Modern Data Stack",
+      description: "Modern Data Stack: Applied Concepts & Tooling Fluency",
+      stack: [""],
+      highlights: "A document that captures hands-on engagement with modern data stack tooling and patterns in the context of AI product development — specifically how data infrastructure decisions shape LLM product quality, reliability, and observability.",
+      link: "https://github.com/bhavana-adarsha/modern_data_stack",
+      status: "live"
+    }
   ]
 
   return (
