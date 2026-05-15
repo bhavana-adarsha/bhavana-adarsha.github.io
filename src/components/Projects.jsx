@@ -48,7 +48,16 @@ function Projects() {
       highlights: "Building the agent is the easy part. Getting people to use it and keep using it is the hard part. This playbook addresses that problem directly. A technically sound agent that managers do not use is not a successful deployment.",
       link: "https://github.com/bhavana-adarsha/AI-Agent-GTM-Playbook",
       status: "live"
-    }
+    },
+    {
+      emoji: "🛡️",
+      title: "Patient Journey",
+      description: "Patient Journey: From Test Order to Claims Resolution",
+      stack: [""],
+      highlights: "A document that maps the end-to-end patient experience from the initial clinical encounter through insurance adjudication and final billing resolution.",
+      link: "https://github.com/bhavana-adarsha/Patient_Journey",
+      status: "live"
+    },
   ]
 
   return (
