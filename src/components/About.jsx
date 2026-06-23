@@ -8,22 +8,22 @@ function About() {
     <section id="about" ref={ref} className="fade-in">
       <div className="about-text">
         <p>
-          Product Leader with <span className="highlight">10+ years of PM experience</span> and 
-          10 years of engineering roots, I bring technical depth to every product decision.
+          AI Product Manager with <span className="highlight">10+ years of 0-to-1 product experience</span> on 
+          a 20-year engineering foundation. I bring real technical depth to every product decision.
         </p>
         <p>
           I sit at the intersection of <span className="highlight">AI product strategy, 
-          workforce tech, and operations platforms...</span> the three places where the most 
+          healthcare AI, and workforce and operations platforms...</span> the three places where the most 
           interesting problems live.
         </p>
         <p>
-          Currently building AI products spanning <span className="highlight">agentic workflows, 
-          workforce automation, and API integrations</span>. Previously built and shipped 
-          healthcare AI with GPT-4, RAG, and FHIR.
+          Currently building AI products end to end: <span className="highlight">agentic workflows, 
+          clinical RAG, and evaluation-gated LLM features</span>. I've shipped healthcare AI with 
+          GPT-4, RAG, and FHIR, validated with real clinicians.
         </p>
         <p>
-          Ask me about: AI product strategy, 0→1 product development, agentic workflows, 
-          or what startup founder life at sCoolMeal was really like.
+          Ask me about: AI product strategy, agent evaluation and guardrails, 0→1 product development, 
+          or what founder life at sCoolMeal was really like.
         </p>
         <p className="personal-note">
           When I'm not building things, I'm reading, singing, walking, or just being 

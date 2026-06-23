@@ -3,12 +3,12 @@ import useScrollAnimation from '../hooks/useScrollAnimation'
 function Skills() {
   const ref = useScrollAnimation()
   const skills = {
-    "AI & ML": ["Agentic AI", "LLM Integration", "Prompt Engineering", "RAG Architecture", "LangChain", "Model Validation"],
-    "Healthcare Tech": ["FHIR APIs", "HL7", "HIPAA Compliance", "EHR Integration", "OpenFDA"],
-    "Languages & Frameworks": ["Python", "JavaScript", "ReactJS", "Node.js", "HTML/CSS"],
-    "Data & Backend": ["SQL", "REST APIs", "PostgreSQL", "Vector Databases"],
-    "Cloud & DevOps": ["AWS", "GitHub", "Docker"],
-    "Product & Strategy": ["B2B SaaS", "B2B2C", "0→1 Product Development", "Roadmapping", "OKRs", "Agile/Scrum"]
+    "AI & Agents": ["Agentic AI", "Multi-Agent Systems", "ReAct", "Tool Use / Function Calling", "Autonomy Tiering", "Human-in-the-Loop", "LLM Evaluation", "RAG Architecture", "Prompt Engineering", "Model Validation", "AI Guardrails", "Responsible AI", "LLMOps"],
+    "Healthcare Tech": ["FHIR", "HL7", "HIPAA", "EHR Integration", "OpenFDA"],
+    "Languages & Frameworks": ["Python", "JavaScript", "ReactJS", "Node.js", "LangChain", "Flask"],
+    "Data & Backend": ["SQL", "GraphQL", "REST APIs", "PostgreSQL", "Vector Databases"],
+    "Cloud & Tooling": ["AWS", "Lambda", "Docker", "Kubernetes", "Claude Code", "Cursor", "n8n", "Git"],
+    "Product & Strategy": ["B2B SaaS", "B2B2C", "0→1 Product Development", "Platform PM", "Roadmapping", "MVP Definition", "OKRs", "Go-to-Market", "Agile"]
   }
 
   return (

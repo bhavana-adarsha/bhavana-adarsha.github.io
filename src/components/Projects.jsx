@@ -5,65 +5,65 @@ function Projects() {
 
   const projects = [
     {
-      emoji: "🌸",
-      title: "IRIS — AI Product Development & Workflow Design",
-      description: "An AI-powered platform built to validate LLM workflow design, prompt engineering strategies, and output validation protocols at the product layer.",
-      stack: ["LLM APIs", "RAG", "Python", "ReactJS"],
-      highlights: "AI workflow requirements, output validation protocols, safety guardrails",
+      emoji: "🧪",
+      title: "Clinical Lab Summarizer (RAG)",
+      description: "A GPT-4 RAG application that turns raw lab results into structured, plain-language patient summaries grounded in a medical knowledge base. Validated with 15 clinicians and 50 patients.",
+      stack: ["GPT-4", "RAG", "FHIR", "Python", "React"],
+      highlights: "Product-layer safety guardrails: hedging enforcement, no-diagnostic-claims, and knowledge-base grounding. I defined the evaluation criteria and the constraints that gate a release, not just the build.",
       link: "https://github.com/bhavana-adarsha/iris-lab-analyzer",
       status: "live"
     },
     {
-      emoji: "🤖",
-      title: "Agentic AI — Payroll & Employee Onboarding Agent",
-      description: "An intelligent agent that connects to payroll systems, captures employee information, and auto-fills onboarding forms so HR teams can focus on people, not paperwork.",
-      stack: ["LangChain", "Agentic AI", "REST APIs", "Python"],
-      highlights: "Conversational AI agent that collects employee data across multiple steps using LangChain agentic workflows",
-      link: "https://github.com/bhavana-adarsha/payroll-onboarding-agent",
-      status: "live"
-    },
-    {
-      emoji: "🔌",
-      title: "Workforce Data Anomaly Explainer AI Agent",
-      description: "An AI-powered agent that analyzes workforce scheduling and payroll data, detects anomalies using deterministic logic, and generates plain-language explanations with recommended actions using GPT-4.",
-      stack: ["React","Vite","Flask","LangChain" ,"GPT-4", "Synthetic JSON dataset", "Python", "JavaScript"],
-      highlights: "Workforce managers dealing with large scheduling datasets spend significant time manually identifying errors. These errors cause overpayments, understaffing, and compliance risks. This agent automates that detection and explains each anomaly in plain language to a non-technical manager who can act on it.",
+      emoji: "🔍",
+      title: "Workforce Anomaly Explainer Agent (ReAct)",
+      description: "An agent that analyzes workforce scheduling and payroll data, detects anomalies with deterministic Python logic, and explains each one in plain language with recommended actions using GPT-4.",
+      stack: ["React", "Vite", "Flask", "LangChain", "GPT-4", "Python"],
+      highlights: "Workforce managers spend significant time manually finding errors that cause overpayments, understaffing, and compliance risk. This agent automates detection and explains each anomaly so a non-technical manager can act immediately, no data analyst required.",
       link: "https://github.com/bhavana-adarsha/workforce-anomaly-agent",
       status: "live"
     },
     {
+      emoji: "🤖",
+      title: "Payroll & Employee Onboarding Agent",
+      description: "A conversational agent that captures employee information and auto-fills multi-step onboarding forms so HR teams can focus on people, not paperwork.",
+      stack: ["LangChain", "GPT-4", "Python", "Flask", "React"],
+      highlights: "Multi-step conversational data collection with GPT-4 input validation, demonstrating full-stack AI product architecture.",
+      link: "https://github.com/bhavana-adarsha/payroll-onboarding-agent",
+      status: "live"
+    },
+    {
       emoji: "🛡️",
-      title: "AI Governance Framework",
-      description: "A product-layer framework for LLM output validation, safety guardrails, and reliability protocols for enterprise AI applications.",
-      stack: [""],
-      highlights: "Release readiness & adoption framework for a clinical AI chart summarization copilot — Alpha to GA, with safety metrics, pilot design, and governance sign-off checklist",
+      title: "AI Release Readiness Framework",
+      description: "A product-layer framework for taking a clinical AI copilot from Alpha to GA: evaluation criteria, exit gates, guardrail design, and governance sign-off.",
+      stack: ["Framework"],
+      highlights: "Safety metrics, pilot design, human-in-the-loop patterns, and a governance sign-off checklist for a clinical chart-summarization copilot.",
       link: "https://github.com/bhavana-adarsha/Chart-Review-Release-Framework",
       status: "live"
     },
     {
-      emoji: "🛡️",
+      emoji: "🚀",
       title: "AI Agent GTM Playbook",
-      description: "An AI-powered agent that analyzes workforce scheduling and payroll data, detects anomalies using deterministic logic, and generates plain-language explanations with recommended actions using GPT-4.",
-      stack: [""],
-      highlights: "Building the agent is the easy part. Getting people to use it and keep using it is the hard part. This playbook addresses that problem directly. A technically sound agent that managers do not use is not a successful deployment.",
+      description: "A go-to-market playbook for taking an AI agent from working prototype to adopted tool, with adoption treated as a first-class outcome alongside accuracy and reliability.",
+      stack: ["Playbook"],
+      highlights: "Building the agent is the easy part. Getting people to keep using it is the hard part. Covers pilot design, champion identification, three-phase rollout, and leading and lagging adoption metrics.",
       link: "https://github.com/bhavana-adarsha/AI-Agent-GTM-Playbook",
       status: "live"
     },
     {
-      emoji: "🛡️",
-      title: "Patient Journey",
-      description: "Patient Journey: From Test Order to Claims Resolution",
-      stack: [""],
-      highlights: "A document that maps the end-to-end patient experience from the initial clinical encounter through insurance adjudication and final billing resolution.",
+      emoji: "🧭",
+      title: "Patient Journey: Test Order to Claims Resolution",
+      description: "An end-to-end map of the patient experience from the initial clinical encounter through insurance adjudication and final billing resolution.",
+      stack: ["Doc"],
+      highlights: "Surfaces the friction points at each stage that represent opportunities for operational improvement and AI-assisted intervention.",
       link: "https://github.com/bhavana-adarsha/Patient_Journey",
       status: "live"
     },
     {
-      emoji: "🛡️",
-      title: "Modern Data Stack",
-      description: "Modern Data Stack: Applied Concepts & Tooling Fluency",
-      stack: [""],
-      highlights: "A document that captures hands-on engagement with modern data stack tooling and patterns in the context of AI product development — specifically how data infrastructure decisions shape LLM product quality, reliability, and observability.",
+      emoji: "📊",
+      title: "Modern Data Stack: Applied Concepts & Tooling Fluency",
+      description: "Hands-on engagement with modern data stack tooling and patterns in the context of AI product development.",
+      stack: ["Doc"],
+      highlights: "How data infrastructure decisions shape LLM product quality, reliability, and observability.",
       link: "https://github.com/bhavana-adarsha/modern_data_stack",
       status: "live"
     }
@@ -88,7 +88,7 @@ function Projects() {
                 <p className="project-highlights">✨ {project.highlights}</p>
               )}
               <div className="project-stack">
-                {project.stack.map(tech => (
+                {project.stack.filter(Boolean).map(tech => (
                   <span key={tech}>{tech}</span>
                 ))}
               </div>
